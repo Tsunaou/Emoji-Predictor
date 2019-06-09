@@ -1,0 +1,121 @@
+D:\Users\Young\AppData\Local\Programs\Python\Python37\python.exe "D:\Program Files\JetBrains\PyCharm 2018.3.5\helpers\pydev\pydevconsole.py" --mode=client --port=62706
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\大三下\\大作业\\数据挖掘\\Emoji Analysis Model', 'E:/大三下/大作业/数据挖掘/Emoji Analysis Model'])
+PyDev console: starting.
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:/大三下/大作业/数据挖掘/Emoji Analysis Model/random_foreset.py', wdir='E:/大三下/大作业/数据挖掘/Emoji Analysis Model')
+得到向量，开始训练：
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+round 1 --------------------
+Running time: 16.84375 Seconds
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\ensemble\forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+score = 0.13375117300184206
+round 2 --------------------
+Running time: 621.234375 Seconds
+score = 0.1337395877984638
+round 3 --------------------
+Running time: 1267.671875 Seconds
+score = 0.12367204606276863
+round 4 --------------------
+Running time: 1851.421875 Seconds
+score = 0.12470312916343246
+round 5 --------------------
+Running time: 2394.8125 Seconds
+score = 0.12983687844663794
+round 6 --------------------
+Running time: 2932.78125 Seconds
+score = 0.1233490893924649
+round 7 --------------------
+Running time: 3465.46875 Seconds
+score = 0.1268015199962927
+round 8 --------------------
+Running time: 4002.40625 Seconds
+score = 0.12677834932109922
+round 9 --------------------
+Running time: 4534.515625 Seconds
+score = 0.1272417628249687
+round 10 --------------------
+Running time: 5070.71875 Seconds
+score = 0.1268710320218731
+              precision    recall  f1-score   support
+         0.0       0.00      0.00      0.00       542
+         1.0       0.33      0.27      0.30      1282
+         2.0       0.04      0.01      0.02       598
+         3.0       0.22      0.50      0.30      6988
+         4.0       0.00      0.00      0.00       223
+         5.0       0.19      0.05      0.08       429
+         6.0       0.07      0.02      0.04      1326
+         7.0       0.02      0.00      0.01       250
+         8.0       0.09      0.02      0.04       796
+         9.0       0.04      0.01      0.02      1108
+        10.0       0.03      0.01      0.01      1555
+        11.0       0.02      0.00      0.01       641
+        12.0       0.07      0.07      0.07      3597
+        13.0       0.02      0.01      0.01       548
+        14.0       0.12      0.17      0.14      4323
+        15.0       0.04      0.02      0.03      2430
+        16.0       0.07      0.03      0.05      2491
+        17.0       0.04      0.02      0.03       750
+        18.0       0.06      0.05      0.06      1005
+        19.0       0.06      0.02      0.03      1391
+        20.0       0.07      0.02      0.03       557
+        21.0       0.08      0.02      0.03       409
+        22.0       0.05      0.01      0.01       645
+        23.0       0.06      0.03      0.04      3190
+        24.0       0.04      0.01      0.01      1412
+        25.0       0.02      0.00      0.01       327
+        26.0       0.03      0.01      0.01       447
+        27.0       0.02      0.01      0.01      1488
+        28.0       0.03      0.01      0.01      1141
+        29.0       0.09      0.21      0.12      4106
+        30.0       0.06      0.04      0.05      1860
+        31.0       0.06      0.06      0.06      3003
+        32.0       0.01      0.00      0.01       811
+        33.0       0.20      0.20      0.20       255
+        34.0       0.08      0.17      0.11      4367
+        35.0       0.16      0.42      0.23      6927
+        36.0       0.01      0.00      0.00       697
+        37.0       0.05      0.02      0.03       994
+        38.0       0.12      0.05      0.07       606
+        39.0       0.03      0.01      0.01       766
+        40.0       0.02      0.01      0.01      1132
+        41.0       0.01      0.00      0.00      1294
+        42.0       0.14      0.16      0.15      1501
+        43.0       0.06      0.01      0.02       465
+        44.0       0.04      0.01      0.02       724
+        45.0       0.04      0.01      0.01       698
+        46.0       0.01      0.00      0.00       761
+        47.0       0.03      0.00      0.01       483
+        48.0       0.00      0.00      0.00       127
+        49.0       0.01      0.00      0.00       458
+        50.0       0.02      0.00      0.01      1095
+        51.0       0.00      0.00      0.00       122
+        52.0       0.06      0.02      0.03      2387
+        53.0       0.00      0.00      0.00       228
+        54.0       0.20      0.12      0.15       633
+        55.0       0.00      0.00      0.00       501
+        56.0       0.00      0.00      0.00       202
+        57.0       0.02      0.00      0.01       353
+        58.0       0.01      0.00      0.00      1021
+        59.0       0.02      0.00      0.01       272
+        60.0       0.07      0.03      0.04      1213
+        61.0       0.01      0.00      0.00       523
+        62.0       0.02      0.01      0.01      1087
+        63.0       0.00      0.00      0.00       109
+        64.0       0.02      0.00      0.00       400
+        65.0       0.00      0.00      0.00        99
+        66.0       0.00      0.00      0.00       183
+        67.0       0.00      0.00      0.00       292
+        68.0       0.01      0.00      0.00       774
+        69.0       0.00      0.00      0.00       267
+        70.0       0.02      0.00      0.00       354
+        71.0       0.04      0.00      0.01       278
+   micro avg       0.12      0.12      0.12     86317
+   macro avg       0.05      0.04      0.04     86317
+weighted avg       0.08      0.12      0.09     86317
+index_max
+2

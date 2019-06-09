@@ -1,0 +1,91 @@
+D:\Users\Young\AppData\Local\Programs\Python\Python37\python.exe "D:\Program Files\JetBrains\PyCharm 2018.3.5\helpers\pydev\pydevconsole.py" --mode=client --port=54237
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\大三下\\大作业\\数据挖掘\\Emoji Analysis Model', 'E:/大三下/大作业/数据挖掘/Emoji Analysis Model'])
+PyDev console: starting.
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:/大三下/大作业/数据挖掘/Emoji Analysis Model/random_foreset.py', wdir='E:/大三下/大作业/数据挖掘/Emoji Analysis Model')
+dsize= 50
+models/sentence_vec_50d.npy
+models/random_forest_third_tree=2050.pickle
+得到向量，开始训练：
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+round 1 --------------------
+Running time: 5.375 Seconds
+score = 0.14567234727805647
+round 2 --------------------
+Running time: 488.296875 Seconds
+score = 0.14415468563550632
+round 3 --------------------
+Running time: 956.734375 Seconds
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+  File "D:\Program Files\JetBrains\PyCharm 2018.3.5\helpers\pydev\_pydev_bundle\pydev_umd.py", line 197, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "D:\Program Files\JetBrains\PyCharm 2018.3.5\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/大三下/大作业/数据挖掘/Emoji Analysis Model/random_foreset.py", line 93, in <module>
+    label = tests_datas[index_max]
+IndexError: list index out of range
+models
+[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=20, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False), RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=20, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)]
+models.__len__()
+2
+models[0]
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=20, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+models[1]
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=20, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=20, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+x
+array([[ 0.56025136, -0.03825656, -0.59873855, ...,  0.00375694,
+        -0.298006  , -1.5025547 ],
+       [ 0.50950783,  0.01280956,  0.12058719, ...,  0.9417513 ,
+         0.29820588,  0.06778559],
+       [ 0.82636815,  0.6568168 ,  0.54206026, ...,  1.1849781 ,
+        -0.45441625,  0.0453886 ],
+       ...,
+       [-0.27045596, -0.13721798,  0.67627543, ..., -0.6342432 ,
+        -0.24332218, -1.1300571 ],
+       [-0.35091153, -0.35959446,  0.6418191 , ..., -0.25445083,
+         0.8996868 , -0.24484825],
+       [ 0.01926994, -0.2597199 ,  1.0168768 , ...,  0.15337136,
+        -0.2867459 ,  0.5030487 ]], dtype=float32)
+x[0]
+array([ 0.56025136, -0.03825656, -0.59873855,  1.2970771 ,  0.27552223,
+        0.3255507 , -0.18048379, -0.17906258, -0.8174519 ,  0.21981198,
+       -1.8962089 , -0.4922172 ,  0.372369  , -1.4397554 , -0.9765876 ,
+       -1.7623835 ,  1.6686354 ,  0.23986141, -1.5643578 , -1.5619036 ,
+        1.5544548 ,  0.57457197, -0.557297  , -0.79024714,  0.55725527,
+        0.73211503,  1.1940324 , -0.16306707, -0.4767453 ,  0.58118457,
+       -0.35444927, -0.6353506 , -2.9115202 , -1.8963023 ,  0.9742793 ,
+        0.96700466, -0.9579446 , -0.5928498 , -0.06505246,  0.23919109,
+       -1.5053865 , -0.2128227 ,  2.4638398 ,  1.7122592 ,  1.3953948 ,
+       -0.21512032, -0.00793493,  0.00375694, -0.298006  , -1.5025547 ],
+      dtype=float32)
+x[0][0]
+0.56025136

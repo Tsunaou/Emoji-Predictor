@@ -1,0 +1,134 @@
+D:\Users\Young\AppData\Local\Programs\Python\Python37\python.exe "D:\Program Files\JetBrains\PyCharm 2018.3.5\helpers\pydev\pydevconsole.py" --mode=client --port=63913
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\大三下\\大作业\\数据挖掘\\Emoji Analysis Model', 'E:/大三下/大作业/数据挖掘/Emoji Analysis Model'])
+PyDev console: starting.
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:/大三下/大作业/数据挖掘/Emoji Analysis Model/neural_network.py', wdir='E:/大三下/大作业/数据挖掘/Emoji Analysis Model')
+dsize= 50
+models/all_data_model/all_sentence_vec_50d.npy
+models/random_forest_third_tree_20_depth_2050.pickle
+得到向量，开始训练：
+inbalanced ovr
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\utils\deprecation.py:58: DeprecationWarning: Class Imputer is deprecated; Imputer was deprecated in version 0.20 and will be removed in 0.22. Import impute.SimpleImputer from sklearn instead.
+  warnings.warn(msg, category=DeprecationWarning)
+round 0 --------------------
+Running time: 5.125 Seconds
+score = 0.16256357380353811
+round 1 --------------------
+Running time: 1505.59375 Seconds
+score = 0.1624593069731339
+round 2 --------------------
+Running time: 2802.59375 Seconds
+score = 0.15750083992724492
+round 3 --------------------
+Running time: 4283.90625 Seconds
+score = 0.1585203378245305
+round 4 --------------------
+Running time: 5733.4375 Seconds
+score = 0.16205570230316513
+round 5 --------------------
+Running time: 7087.5625 Seconds
+score = 0.1572130311877288
+round 6 --------------------
+Running time: 8499.796875 Seconds
+score = 0.15491913434357477
+round 7 --------------------
+Running time: 9852.5625 Seconds
+score = 0.1617428981880532
+round 8 --------------------
+Running time: 11568.828125 Seconds
+score = 0.15789656610593633
+round 9 --------------------
+Running time: 13316.671875 Seconds
+score = 0.16158070346169887
+D:\Users\Young\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\metrics\classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+              precision    recall  f1-score   support
+         0.0       0.00      0.00      0.00       441
+         1.0       0.45      0.42      0.43      1520
+         2.0       0.00      0.00      0.00       681
+         3.0       0.22      0.66      0.34      9084
+         4.0       1.00      0.00      0.01       260
+         5.0       0.19      0.13      0.15       361
+         6.0       0.30      0.02      0.04      1636
+         7.0       0.28      0.03      0.06       315
+         8.0       0.52      0.14      0.22       535
+         9.0       0.17      0.01      0.01       867
+        10.0       0.00      0.00      0.00      1648
+        11.0       0.00      0.00      0.00       542
+        12.0       0.12      0.12      0.12      4053
+        13.0       0.00      0.00      0.00       666
+        14.0       0.14      0.17      0.15      4325
+        15.0       0.05      0.01      0.02      1660
+        16.0       0.52      0.06      0.11      3089
+        17.0       0.11      0.01      0.01      1244
+        18.0       0.12      0.12      0.12      1440
+        19.0       0.70      0.05      0.09      1251
+        20.0       0.16      0.00      0.01       666
+        21.0       0.11      0.04      0.06       347
+        22.0       0.00      0.00      0.00       850
+        23.0       0.09      0.01      0.02      2686
+        24.0       0.00      0.00      0.00      1653
+        25.0       0.00      0.00      0.00       261
+        26.0       0.00      0.00      0.00       740
+        27.0       0.03      0.00      0.00      1850
+        28.0       0.17      0.00      0.00      1139
+        29.0       0.17      0.22      0.19      5698
+        30.0       0.13      0.05      0.08      1934
+        31.0       0.06      0.05      0.05      2497
+        32.0       0.00      0.00      0.00       713
+        33.0       0.19      0.23      0.21       473
+        34.0       0.07      0.23      0.11      3417
+        35.0       0.13      0.53      0.20      4424
+        36.0       0.00      0.00      0.00       535
+        37.0       0.12      0.11      0.11       660
+        38.0       0.27      0.12      0.17       946
+        39.0       0.00      0.00      0.00       480
+        40.0       0.06      0.00      0.00       647
+        41.0       0.36      0.00      0.01      1467
+        42.0       0.14      0.25      0.18      1180
+        43.0       0.32      0.02      0.04       450
+        44.0       0.11      0.00      0.00       424
+        45.0       0.00      0.00      0.00       627
+        46.0       0.00      0.00      0.00       781
+        47.0       0.00      0.00      0.00       365
+        48.0       0.00      0.00      0.00       242
+        49.0       0.07      0.00      0.01       765
+        50.0       0.00      0.00      0.00       858
+        51.0       0.00      0.00      0.00       162
+        52.0       0.10      0.01      0.02      2351
+        53.0       0.00      0.00      0.00       251
+        54.0       0.39      0.21      0.27       803
+        55.0       0.00      0.00      0.00       474
+        56.0       0.00      0.00      0.00       237
+        57.0       0.00      0.00      0.00       217
+        58.0       0.00      0.00      0.00       903
+        59.0       0.00      0.00      0.00       424
+        60.0       0.05      0.00      0.01       686
+        61.0       0.00      0.00      0.00       671
+        62.0       0.00      0.00      0.00      1045
+        63.0       0.00      0.00      0.00       200
+        64.0       0.00      0.00      0.00       333
+        65.0       0.00      0.00      0.00       162
+        66.0       0.00      0.00      0.00       245
+        67.0       0.00      0.00      0.00       282
+        68.0       0.00      0.00      0.00       581
+        69.0       0.00      0.00      0.00       404
+        70.0       0.00      0.00      0.00       293
+        71.0       0.00      0.00      0.00       200
+   micro avg       0.16      0.16      0.16     86317
+   macro avg       0.11      0.06      0.05     86317
+weighted avg       0.15      0.16      0.11     86317
+for i in range(10):
+    with open('models/MLPClassifier/all_data_model/allnn_default_50d_model'+str(i)+'.pickle', 'wb') as fp:
+        pickle.dump(models[i], fp)
+        
+Traceback (most recent call last):
+  File "<input>", line 2, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'models/MLPClassifier/all_data_model/allnn_default_50d_model0.pickle'
+for i in range(10):
+    with open('models/MLPClassifier/all_data_model/allnn_default_50d_model'+str(i)+'.pickle', 'wb') as fp:
+        pickle.dump(models[i], fp)
+        
